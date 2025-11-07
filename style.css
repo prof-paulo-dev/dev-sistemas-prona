@@ -1,20 +1,53 @@
 .btn-entrar{
   width: 200px;
-  padding: 12px;
-  background-color:  #FF5E5B;
+  padding: 8px;
+  background-color: rgb(57, 170, 155);
   color: #FFFFFF;
-  border: 2px solid var(#000000;);
+  border: 2px solid var(#000000);
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
   transition: all 0.3s;
+  border-radius: 8px;
 }
 
 .btn-entrar:hover {
   box-shadow: 4px 4px 0px var(#000000);
   transform: translate(-2px, -2px);
 }
+
+
+.input{
+  border-radius: 9px;
+  padding: 5px;
+  background-color: rgb(57, 170, 155);
+  color: white;
+
+  &::placeholder{
+    color: black;
+  }
+
+
+  &:hover{
+    background-color: white;
+    color:  rgb(57, 170, 155);
+  }
+
+  &:focus{
+    background-color: white;
+    color: black;
+  }
+}
+
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
 
 .container{
   margin-top: 8%;
