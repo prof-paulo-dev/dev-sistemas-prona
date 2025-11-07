@@ -15,3 +15,18 @@
   box-shadow: 4px 4px 0px var(#000000);
   transform: translate(-2px, -2px);
 }
+
+.container{
+  margin-top: 8%;
+  margin-left: 30%;
+  background-color: rgb(207, 186, 186);
+  color: #0c0c0c;
+  border-radius: 10px;
+  padding: 50px;
+  width: 300px;
+  height: 350px;
+
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
