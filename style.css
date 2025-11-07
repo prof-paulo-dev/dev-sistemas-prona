@@ -15,3 +15,22 @@
   box-shadow: 4px 4px 0px var(#000000);
   transform: translate(-2px, -2px);
 }
+
+.input{
+  border-radius: 9px;
+  padding: 5px;
+  background-color: rgb(57, 170, 155);
+  color: white;
+
+  &::placeholder{
+    color: white;
+  }
+
+  &::placeholder
+
+  &:hover{
+    background-color: white;
+    color:  rgb(57, 170, 155);
+  }
+}
+
