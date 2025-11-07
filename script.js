@@ -6,7 +6,7 @@ function logarTelaPrincipal() {
   var email = inEmail.value;
   var senha = Number(inSenha.value);
 
-  if (email != "") {
+  if (email != "Pronatec@gmail.com") {
     alert("o Email(usuario) esta incorreto...");
 
     email.focus();
@@ -22,5 +22,5 @@ function logarTelaPrincipal() {
   window.location.replace("iniciar.html");  
 
 }
-var btEntrar = document.getElementById("btn-entrar");
-btEntrar.addEventListener("click", logarFacebook);
+var btnEntrar = document.getElementById("btnEntrar");
+btnEntrar.addEventListener("click", logarTelaPrincipal);
