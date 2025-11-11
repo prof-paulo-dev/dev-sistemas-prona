@@ -1,12 +1,12 @@
 function logarTelaPrincipal() {
   
-  var inEmail = document.getElementById("inEmail");
-  var inSenha = document.getElementById("inSenha");
+  var idEmail = document.getElementById("idEmail");
+  var idSenha = document.getElementById("idSenha");
 
-  var email = inEmail.value;
-  var senha = Number(inSenha.value);
+  var email = idEmail.value;
+  var senha = Number(idSenha.value);
 
-  if (email != "Pronatec@gmail.com") {
+  if (email === "") {
     alert("o Email(usuario) esta incorreto...");
 
     email.focus();

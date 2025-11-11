@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Tela login</title>
-</head>
-<body>
-    <div class="container">
- <h1>Tela login</h1>
- 
- Email: <input type="text" class="email" id="inEmail"> 
- <br>
- <br>
- Senha: <input type="text" class="senha" id="inSenha">
- <br>
- <br>
- <input type="button" value="Entrar" class="btn-entrar">
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
-</body>
+    <title>Tela login</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="titulo">Tela login</h1>
+
+      <p>
+        <input
+          type="text"
+          class="input"
+          name="email"
+          placeholder="Email"
+          id="idEmail"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="password"
+          class="input"
+          name="senha"
+          placeholder="Senha"
+          id="idSenha"
+          required
+        />
+        <br />
+        <br />
+
+        <input type="button" value="Entrar" class="btn-entrar" id="btnEntrar" />
+        <br />
+        <br />
+      </p>
+
+      <p>
+        <a href="recuperacao.html">Esqueceu sua senha ?</a>
+      </p>
+    </div>
+  </body>
 </html>
