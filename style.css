@@ -1,7 +1,7 @@
 .btn-entrar{
   width: 200px;
   padding: 8px;
-  background-color: rgb(57, 170, 155);
+  background-color:  #2980b9;
   color: #FFFFFF;
   border: 2px solid var(#000000);
   font-size: 16px;
@@ -21,7 +21,7 @@
 .input{
   border-radius: 9px;
   padding: 5px;
-  background-color: rgb(57, 170, 155);
+  background-color:  #2980b9;
   color: white;
 
   &::placeholder{
@@ -52,7 +52,7 @@ h1{
 .container{
   margin-top: 8%;
   margin-left: 30%;
-  background-color: rgb(207, 186, 186);
+  background-color:  #6dd5fa;
   color: #0c0c0c;
   border-radius: 10px;
   padding: 50px;
@@ -63,6 +63,14 @@ h1{
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
+body{
+
+  background-image: url("https://wallpapers.com/images/hd/blue-sea-with-white-sea-foam-ymy6c5qc2koxr6ja.webp");
+  background-size: cover;
+}
+
+
 
 
 
